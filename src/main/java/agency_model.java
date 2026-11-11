@@ -28,5 +28,7 @@ private  String agency_phone;
 @Column 
 private String agency_fare_url;
 
-@Column String agency_email;
+@Column 
+private String agency_email;
+
 }
