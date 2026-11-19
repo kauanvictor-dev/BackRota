@@ -1,4 +1,4 @@
-package com.protegemais.backend;
+package com.protegemais.backend.classeCalendar;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
