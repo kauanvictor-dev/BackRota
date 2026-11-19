@@ -1,4 +1,4 @@
-package com;
+package com.protegemais.backend;
 import jakarta.persistence.*;
 
 @Entity 
