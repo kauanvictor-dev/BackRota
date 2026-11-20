@@ -1,5 +1,10 @@
-package com.protegemais.backend;
-import jakarta.persistence.*;
+package com.protegemais.backend.agency;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity 
 @Table(name = "Agency")
@@ -84,13 +89,13 @@ public void setAgency_phone(String agency_phone){
 public String getAgency_fare_url(){
     return agency_fare_url;
 }
-public void setAgency_fare_url(){
+public void setAgency_fare_url( String agency_fare_url){
     this.agency_fare_url = agency_fare_url;
 } 
 public String getAgency_email(){
     return agency_email;
 }
-public void setAgency_email(){
+public void setAgency_email(String agency_email){
     this.agency_email = agency_email;
 }
 
