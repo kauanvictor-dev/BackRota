@@ -17,13 +17,11 @@ public class calendar_Controller {
     public calendar_Controller(calendar_Repository calendarRepository) {
         this.calendarRepository = calendarRepository;
     }
-
     
     @GetMapping
     public List<calendar_Model> listarCalendar() {
         return calendarRepository.findAll();
     }
-
     
     @GetMapping("/{id}")
     public calendar_Model buscarCalendarPorId(@PathVariable Long id) {
